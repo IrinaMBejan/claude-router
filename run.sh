@@ -7,8 +7,8 @@ fi
 uv sync
 . .venv/bin/activate
 
-# Run export ANTHROPIC_API_KEY=
-
+export ACCOUNTING_SERVICE_URL=http://20.46.244.131
+# export ANTHROPIC_API_KEY=<>
 # Check if ANTHROPIC_API_KEY is set
 if [ -z "$ANTHROPIC_API_KEY" ]; then
     echo "Error: ANTHROPIC_API_KEY environment variable is not set"
